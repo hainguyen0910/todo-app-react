@@ -1,0 +1,25 @@
+.TodoItem-complete > p {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.TodoItem {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.TodoItem img {
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
